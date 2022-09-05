@@ -1,9 +1,8 @@
 /* Universal Styles */
 
-html, body {
+html {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
-  overflow-x: hidden;
 }
 
 .main-content {
@@ -32,6 +31,12 @@ html, body {
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
   }
 }
 
