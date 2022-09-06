@@ -1,8 +1,10 @@
 /* Universal Styles */
 
-html {
+html, body {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .main-content {
@@ -31,12 +33,6 @@ html {
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  html, body {
-    overflow-x: hidden;
   }
 }
 
@@ -207,7 +203,8 @@ header .desktop .buttons {
     height: auto;
     background-color: transparent;
     border: none;
-    margin: 0;
+    margin: auto;
+    padding: 0;
   }
 
   #sign-up-cta .content {
