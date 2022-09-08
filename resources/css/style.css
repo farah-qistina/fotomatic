@@ -44,6 +44,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   height: 5.3125rem;
   background-color: white;
+  z-index: 1;
 }
 
 header .content {
